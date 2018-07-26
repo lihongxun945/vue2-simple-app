@@ -1,5 +1,7 @@
 # vue2-simple-app
 
+这是为了研究Vue源码专用的项目。
+
 > A Vue.js project
 
 ## Build Setup
