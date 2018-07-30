@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ upperMsg}}</h1>
     <h2>Essential Links</h2>
+    <p>{{ doubleMsg }}</p>
     </ul>
   </div>
 </template>
@@ -17,7 +18,13 @@ export default {
   computed: {
     upperMsg () {
       return this.msg.toUpperCase()
+    },
+    doubleMsg () {
+      return this.msg + this.msg
     }
+  },
+  mounted () {
+    this.msg = 'aaaa'
   }
 }
 </script>
